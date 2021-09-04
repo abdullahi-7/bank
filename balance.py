@@ -4,7 +4,7 @@ def withdraw(current_bank, amouth):
     current_bank = current_bank
     if current_bank >= amouth:
         
-        print("your' are withdraw", amouth)
+        print("your' withdraw", amouth)
         current_bank =current_bank - amouth
         return current_bank
     else:
